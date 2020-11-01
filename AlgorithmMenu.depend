@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1604205732 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\menu.c
+	"Menu.h"
+	"header\Compiler.h"
+
+1604205289 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\menu.h
+
+1604206728 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\compiler.h
+	<stdio.h>
+	<conio.h>
+	<limits.h>
+	<disp.h>
+
+1604206405 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"header\keyboard.h"
+	"header\Compiler.h"
+	"header\ASCII.h"
+	"Menu.h"
+	"ListeProgrammation.h"
+	"ConvertisseurBasesNumeriques.h"
+	"Palindrome.h"
+	"Thermo.h"
+	"JeuPendu.h"
+
+1510151192 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\keyboard.h
+
+1510151202 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\ascii.h
+
+1604211593 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"..\header\keyboard.h"
+	"..\header\Compiler.h"
+	"..\header\ASCII.h"
+	"..\header\Menu.h"
+	"ListeProgrammation.h"
+	"ConvertisseurBasesNumeriques.h"
+	"Palindrome.h"
+	"Thermo.h"
+	"JeuPendu.h"
+
+1604210924 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\menu.h
+
+1604211670 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\menu.c
+	"..\header\Menu.h"
+	"..\header\Compiler.h"
+
