@@ -1,4 +1,4 @@
-/*!  @file                              ascii.h
+/*!  @file                              <Not documented>
      @version                           1.00
      @brief                             Déclarations pour la table du code ASCII.
 
@@ -13,13 +13,13 @@
      @author                            Denis Lavoie
      @note                              Entrée des déclarations des constantes des numéros de touches («scan code» ou
                                         « extended code ») et des codes ASCII (sous DOS). [terminal.h]
- 
+
      <hr width="100%" height="1">
      @date                              2002-12-04
      @author                            Denis Lavoie
      @note                              Nouveaux noms pour les constantes et rangement dans un fichier à part [ascii.h].
                                         Remplacement du début des commentaires par //.
- 
+
      <hr width="100%" height="5">
  */
 //** **************************************************************************
@@ -53,19 +53,19 @@
 #define HEART              FIN_DE_TEXTE
 
 #define FIN_DE_TRANSMISSION           4 //** Fin de transmission (End Of Transmission).
-#define END_OF_TRANSMISSION FIN_DE_TRANSMISSION 
+#define END_OF_TRANSMISSION FIN_DE_TRANSMISSION
 #define EOT                 FIN_DE_TRANSMISSION
 #define CARREAU             FIN_DE_TRANSMISSION
 #define DIAMAND             FIN_DE_TRANSMISSION
 #define DIAMOND             FIN_DE_TRANSMISSION
 
 #define DEMANDE_DE_RENSEIGNEMENT      5 //** Demande de renseignement (Enquiry).
-#define ENQUIRY  DEMANDE_DE_RENSEIGNEMENT 
+#define ENQUIRY  DEMANDE_DE_RENSEIGNEMENT
 #define ENQ      DEMANDE_DE_RENSEIGNEMENT
 #define TREFLE   DEMANDE_DE_RENSEIGNEMENT
 
 #define ACCUSE_DE_RECEPTION           6 //** Accusé de réception (ACKnowledgement).
-#define ACKNOWLEDGEMENT  ACCUSE_DE_RECEPTION 
+#define ACKNOWLEDGEMENT  ACCUSE_DE_RECEPTION
 #define ACK              ACCUSE_DE_RECEPTION
 #define PIQUE            ACCUSE_DE_RECEPTION
 

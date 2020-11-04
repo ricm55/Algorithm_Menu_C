@@ -1,8 +1,7 @@
 /*!  @file                              Menu.h
      @version                           1.00
-     @brief                             Declaration of tests function and the menu
+     @brief                             This file contain the tests function declaration and the menu
 
-     @internal
      <hr width="100%" height="5">
      <b>Historique</b>
      <hr width="100%" height="1">
@@ -22,15 +21,17 @@ extern "C"
 {
 #endif
     typedef struct TMenu TMenu;
+
+    //! Contain the elements inside 1 element of the menu
     struct TMenu
     {
-        //Input character to run the program
+        //!Input character to run the program
         char Touche;
 
-        //Description for the program
+        //!Description for the program
         char* Description;
 
-        //Pointer to the program
+        //!Pointer to the program to execute
         int (* pFct ) ( );
 
     };
@@ -43,4 +44,4 @@ extern "C"
 
 #endif
 
-#endif /* %<%GUARD_NAME%>% */
+#endif /* MENU_H */

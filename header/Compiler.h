@@ -1,6 +1,8 @@
-/*!  @file                              Compiler.h
+/*!  @file                              <Not documented>
      @version                           1.00
-     @brief                             Déclaration de macros d'adaptation à l'environnement de développment.
+     @brief                             Declaration of adaptation macros to the development environment
+
+     @internal
 
      @note                              ANSI.SYS [pour DOS ou l'équivalent sur un autre environnement], un sous-ensemble de la
                                         norme ANSI 3.64-1979), doit être installé pour utiliser le groupe de macro-instructions
@@ -14,7 +16,7 @@
                                            device=c:\windows\command\ansi.sys
                                         où "windows" est le dossier où se trouve le système d'exploitation Windows.
 
-     @internal
+
 
      @note                              Liste des macro-instructions dans ce fichier de déclaration:
          =================================================================================================================
