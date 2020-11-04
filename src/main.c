@@ -1,20 +1,21 @@
-/*!  @file                              main.c
-     @version                           1.00
-     @brief                             Here are just a few algorithm that allow me
-                                        to challenge myself and review some concept
-                                        in c programming
-     @internal
+/*! @file                              main.c
+    @version                           1.00
+    @brief                             This main file contains menu management which allows
+                                       the user to choose the program to run, stop it, and
+                                       left the program.
+
 
      <hr width="100%" height="5">
-     <b>Historique</b>
+     <b>History</b>
      <hr width="100%" height="1">
      @date                              2020-10-31
-     @author                            Marc-Antoine
-     @note                              I only wanted to implement several algorithms in one programs
+     @author                            Marc-Antoine Ricard
+     @note                              Create the main menu which allows the user to choose which program to launch
 
      <hr width="100%" height="5">
  */
 //** **************************************************************************
+
 
 #include <stdio.h> /* printf, */
 #include <stdlib.h> /* EXIT_SUCCESS, system*/
@@ -37,7 +38,7 @@
 #include "JeuPendu.h"
 */
 
-//create the algorithm choice menu
+//Create the algorithm choice menu
 static TMenu Menu [] = {
 
 
@@ -52,7 +53,7 @@ static TMenu Menu [] = {
     {'I', "Le jeu du pendu", JeuPendu },*/
 };
 
-//Calcule the number of elements in the menu
+//Calcul the number of elements in the menu
 static unsigned int iNbElementMenu = sizeof ( Menu ) / sizeof ( struct TMenu );
 
 //** **************************************************************************
@@ -60,7 +61,7 @@ static unsigned int iNbElementMenu = sizeof ( Menu ) / sizeof ( struct TMenu );
      The main program can display the algorithm menu and manage it
      @param   argc          Number of argument on the command line
      @param   argv          User's strings pass in argument of this program
-     @return                Code d'erreur.
+     @return                Error code
      @retval  EXIT_SUCCESS  no runtime error
      @retval  EXIT_FAILED   failure
  */

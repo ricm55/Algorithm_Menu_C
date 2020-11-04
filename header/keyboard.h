@@ -1,6 +1,6 @@
-/*!  @file                              clavier.h
+/*!  @file                              <Not documented>
      @version                           1.00
-     @brief                             Déclarations pour le clavier.
+     @brief                             Declarations for keyboard
 
      @internal
 
@@ -9,7 +9,7 @@
                                         2) IBM PC BIOS, p.2-14 Keyboard Encoding
                                         3) Feuille d'origine inconnue
                                         4) Programming/Utilities, PC Magazine, 1987-05-26, p.352
- 
+
      @note      Alt + Ctrl + Del        Provoque la réinitilisation du système («reboot») {gestion interne par le clavier}.
 
                 Ctrl + Break            Provoque une interruption 1Ah.
@@ -42,13 +42,13 @@
                                         14   E      1     1     1     0
                                         15   F      1     1     1     1
                                         ---------+-----+-----+-----+-----+-----------
- 
+
      <hr width="100%" height="5">
      <b>Historique</b>
      <hr width="100%" height="1">
      @date                              1989-09-30
      @author                            Denis Lavoie
-     @note                              Entrée des déclaration des constantes des numéros de touches 
+     @note                              Entrée des déclaration des constantes des numéros de touches
                                         («scan code» ou « extended code »). [terminal.h]
 
      <hr width="100%" height="1">

@@ -6,4 +6,6 @@ For now, there is only 2 tests to make sure the menu works. In the futur, I will
 
 You can run the program with bin/release/AlgorithmMenu.exe
 
+You can access to the html documentation with doc/html/index.html (generated with doxygen)
+
 IDE => Code::Block

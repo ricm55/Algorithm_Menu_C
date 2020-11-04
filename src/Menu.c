@@ -1,8 +1,8 @@
 /*!  @file                              Menu.c
      @version                           1.00
-     @brief                             Here are the test function that c
+     @brief                             Here we can find the tests functions that allow
+                                        me to check the menu operation
 
-     @internal
      <hr width="100%" height="5">
      <b>Historique</b>
      <hr width="100%" height="1">
@@ -19,19 +19,8 @@
 
 //** **************************************************************************
 /*!  @brief                             This is the test 1
+     @retval                            0
 
-     @return                            0
-
-     @internal
-
-     <hr width="100%" height="5">
-     <b>Historique</b>
-     <hr width="100%" height="1">
-     @date                              2020-10-31
-     @author                            Marc-Antoine Ricard
-     @note                              test 1
-
-     <hr width="100%" height="5">
  */
 int Test1 ( )
 {
@@ -45,18 +34,7 @@ int Test1 ( )
 //** **************************************************************************
 /*!  @brief                             This is the test 2
 
-     @return                            0
-
-     @internal
-
-     <hr width="100%" height="5">
-     <b>Historique</b>
-     <hr width="100%" height="1">
-     @date                              2020-10-31
-     @author                            Marc-Antoine Ricard
-     @note                              test 2
-
-     <hr width="100%" height="5">
+     @retval                            0
  */
 int Test2 ( )
 {
