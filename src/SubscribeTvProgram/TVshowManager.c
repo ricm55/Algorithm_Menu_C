@@ -16,39 +16,47 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../../header/SubscribeTvProgram/DisplayTVshow.h"
+#include "..\..\header\Compiler.h"/*PAUSE()*/
 
-int main ( int argc, char** argv )
+#include "..\..\header\SubscribeTvProgram/DisplayTVshow.h"
+
+int TVshowManager ()
 {
 
-    int iAbonnement = 0;
-    //Création d'un tableau d'information
-    int iInfo[] = {6, 2010, 8, 22, 450, 510, 1,
-                   12, 2010, 8, 30, 1020, 1080, 1,
-                   16, 2010, 8, 28, 1140, 1170, 0,
-                   24, 2011, 8, 26, 1140, 1170, 0,
-                   26, 2010, 8, 18, 450, 510, 1,
-                   40, 2010, 8, 22, 450, 510, 1,
-                   -1, -1, -1, -1 };
+    int subscription = 0;
 
+    //TV schedule set, year, month, day, start, end, mode
+    int tvSet[] = {6,  2010,   8,   22,   450,  510,  1,
+                   12, 2010,   8,   30,   1020, 1080, 1,
+                   16, 2010,   8,   28,   1140, 1170, 0,
+                   24, 2011,   8,   26,   1140, 1170, 0,
+                   26, 2010,   8,   18,   450,  510,  1,
+                   40, 2010,   8,   22,   450,  510,  1,
+                   -1};
+
+    //Display title
+    printf("*********************************\n");
+    printf("What TV set are you allowed to watch?\n");
+    printf("Enter your subscription:\n=> 0\n=> 1\n=> 2\n");
+    printf("*********************************\n");
+
+    //Ask subscription
     do
     {
-        printf ( "Votre abonnement: " );
-        scanf ( "%i", &iAbonnement ); //Stocker la saisi de l'utilisateur dans une variable
-        if ( iAbonnement > 2 )
+        printf ( "Your subscription: " );
+        scanf ( "%i", &subscription );
+        if ( subscription > 2 )
         {
-            printf ( "Cet abonnement n'existe pas\n" );
+            printf ( "This subscription does not exist\n" );
         }
 
-    }//Tant que l'abonnement choisi n'est pas bon
-    while ( iAbonnement != 0 && iAbonnement != 1 && iAbonnement != 2 );
+    }
+    while ( subscription != 0 && subscription != 1 && subscription != 2 );
 
-    printf ( "\n====================================================\n" );
-    printf ( "Poste  Date     Debut   Fin      Mode\n" );
-    printf ( "----------------------------------------------------\n" );
+    //Display customer subscription
+    DisplayTvSet( subscription, tvSet );
 
-    AfficherListeProgrammation ( iAbonnement, iInfo ); //Utilisation de la routine qui affiche les divers postes
-
+    PAUSE();
     return (EXIT_SUCCESS );
 }
 

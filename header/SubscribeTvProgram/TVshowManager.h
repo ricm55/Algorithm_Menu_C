@@ -1,6 +1,6 @@
-/*!  @file                              DisplayTVshow.h
+/*!  @file                              TVshowManager.h
      @version                           1.00
-     @brief                             Declaration of TVshow operations
+     @brief                             Declaration of TVshow main operations
 
      <hr width="100%" height="5">
      <b>Historique</b>
@@ -10,19 +10,20 @@
      <hr width="100%" height="5">
  */
  //** **************************************************************************
-
-#ifndef AFFICHERPROGRAMMATION_H
-#define AFFICHERPROGRAMMATION_H
+#ifndef TVSHOWMANAGER_H_INCLUDED
+#define TVSHOWMANAGER_H_INCLUDED
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
 
-    int DisplayTvSet ( int subscription, int* tvSet );
+    int TVshowManager ();
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* %<%GUARD_NAME%>% */
+
+
+#endif // TVSHOWMANAGER_H_INCLUDED

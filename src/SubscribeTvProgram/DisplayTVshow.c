@@ -1,77 +1,50 @@
-/*!  @file                              AfficherProgrammation.c
+/*!  @file                              DisplayTVshow.h
      @version                           1.00
-     @brief                             Implementation de...
-
-     @internal
-     @note                              Note au programmeur.
+     @brief                             This program can display customer's television subscription
 
      <hr width="100%" height="5">
      <b>Historique</b>
      <hr width="100%" height="1">
-     @date                              2017-11-07
+     @date                              2020-10-31
      @author                            Marc-Antoine
-     @note                              Entree du code.
+     @note                              Ask and display television subscription
 
      <hr width="100%" height="5">
  */
 //** **************************************************************************
 
-#include "AfficherProgrammation.h"
+#include "..\..\header\SubscribeTvProgram\DisplayTVshow.h"
 
 //** **************************************************************************
-/*!  @brief                             Fonction de la routine.
-
-     @return                            Code de la couleur de l'objet.
-     @retval                            ccNoir    Noir.
-     @retval                            ccBrun    Brun / marron.
-     @retval                            ccMarron  Brun / marron.
-     @retval                            ccRouge   Rouge.
-     @retval                            ccOrange  Orange.
-     @retval                            ccJaune   Jaune.
-     @retval                            ccVert    Vert.
-     @retval                            ccBleu    Bleu.
-     @retval                            ccViolet  Violet / mauve.
-     @retval                            ccMauve   Violet / mauve.
-     @retval                            ccGris    Gris.
-     @retval                            ccBlanc   Blanc.
-     @retval                            ccBleu    Bleu.
-
-     @internal
-
-     <hr width="100%" height="5">
-     <b>Historique</b>
-     <hr width="100%" height="1">
-     @date                              2005-09-13
-     @author                            Denis Lavoie
-     @note                              Entr�e du code.
-
-     <hr width="100%" height="5">
+/*!
+     The main program can display the algorithm menu and manage it
+     @param   iAbonnement      Subscription number
+     @param   iInfo[]          TV show information
+     @retval  Error Code       0
  */
-int AfficherListeProgrammation ( int iAbonnement, int iInfo[] )
+int DisplayTvSet ( int subscription, int* tvSet )
 {
-    //Nom de la fonction: AfficherListeProgrammation
-    //
-    //Objectif: Fonction permettant d'afficher une liste des postes de télévision
-    //          disponible selon les abonnements
-
+    printf ( "\n====================================================\n" );
+    printf ( "%5s%8s%10s%7s%8s\n","set","Date","start","end","Mode");
+    printf ( "----------------------------------------------------\n" );
 
     int p = 0;
-    while ( iInfo[p] != -1 )
-    {//Boucle permettant d'afficher les divers postes disponibles
+    while ( tvSet[p] != -1 )
+    {
 
-        if ( ( iAbonnement == 0 && iInfo[p] <= 16 ) ||
-             ( iAbonnement == 1 && iInfo[p] <= 26 ) ||
-             ( iAbonnement == 2 && iInfo[p] <= 40 ) )
+        if ( ( subscription == 0 && tvSet[p] <= 16 ) ||
+             ( subscription == 1 && tvSet[p] <= 26 ) ||
+             ( subscription == 2 && tvSet[p] <= 40 ) )
         {
-            printf ( "%5i %4i-%02i-%02i %3.2i:%2.2i %4.2i:%2.2i %4i\n", //Imprimer les postes, dates et autres informations
-                     iInfo[p], iInfo[p + 1], iInfo[p + 2], iInfo[p + 3],
-                     iInfo[p + 4] / 60, iInfo[p + 4] % 60,
-                     iInfo[p + 5] / 60, iInfo[p + 5] % 60, iInfo[p + 6] );
+            printf ( "%5i %4i-%02i-%02i %3.2i:%2.2i %4.2i:%2.2i %4i\n",
+                     tvSet[p], tvSet[p + 1], tvSet[p + 2], tvSet[p + 3],
+                     tvSet[p + 4] / 60, tvSet[p + 4] % 60,
+                     tvSet[p + 5] / 60, tvSet[p + 5] % 60, tvSet[p + 6] );
 
-            p = p + 7; //Incrementer de 7 pour passer à l'autre poste
+
         }
-        else
-            p += 7;
+
+        p += 7;
 
     }
     return 0;
