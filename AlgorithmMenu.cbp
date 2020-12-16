@@ -34,8 +34,15 @@
 		<Unit filename="header/ASCII.h" />
 		<Unit filename="header/Compiler.h" />
 		<Unit filename="header/Menu.h" />
+		<Unit filename="header/SubscribeTvProgram/DisplayTVshow.h" />
 		<Unit filename="header/keyboard.h" />
 		<Unit filename="src/Menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/SubscribeTvProgram/DisplayTVshow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/SubscribeTvProgram/TVshowManager.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/main.c">
