@@ -29,10 +29,10 @@
 
 #include "..\header\Menu.h" /* Test1, Test2, */
 
+#include "..\header\SubscribeTvProgram\TVshowManager.h"
+
 //Some algorithm coming soon...
-/*
-#include "ListeProgrammation.h"
-#include "ConvertisseurBasesNumeriques.h"
+/*#include "ConvertisseurBasesNumeriques.h"
 #include "Palindrome.h"
 #include "Thermo.h"
 #include "JeuPendu.h"
@@ -44,8 +44,8 @@ static TMenu Menu [] = {
 
     {'A', "Run test 1", Test1 },
     {'B', "Run Test 2", Test2 },
-    /*{'C', "Configuration et verification de la liste de programmation", ListeProgrammation  },
-    {'D', "Verifier si une chaine est un palindrome", Palindrome },
+    {'C', "View your television subscription", TVshowManager},
+    /*{'D', "Verifier si une chaine est un palindrome", Palindrome },
     {'E', "Convertir des entiers ou caracteres sous differentes bases numeriques", ConvertisseurBasesNumeriques },
     {'F', "Verifier la temperature passante dans la maison", Thermo },
     {'G', "Un programme qui fait rien", ProgrammeFaitRien },
