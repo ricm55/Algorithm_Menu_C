@@ -29,7 +29,7 @@
 
 1604506665 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\ascii.h
 
-1608166409 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\main.c
+1608170751 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\main.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -79,7 +79,7 @@
 	"..\..\header\Compiler.h"
 	"..\..\header\DigitalConverter\converter.h"
 
-1608164879 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\digitalconverter.h
+1608181222 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\digitalconverter.h
 
 1608170628 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\converter.c
 	"..\..\header\DigitalConverter\converter.h"

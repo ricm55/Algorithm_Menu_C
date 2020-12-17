@@ -76,7 +76,7 @@ int main ( int argc, char* argv[] )
     char cArret[] = "Program stop\n";
     int i = 0;
 
-    //** Can stock the user input
+    //** Can store the user input
     char cChoix = 0;
     int iTouche = 0;
 
