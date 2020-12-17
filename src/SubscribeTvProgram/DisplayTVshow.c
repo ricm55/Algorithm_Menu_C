@@ -17,9 +17,9 @@
 
 //** **************************************************************************
 /*!
-     The main program can display the algorithm menu and manage it
-     @param   iAbonnement      Subscription number
-     @param   iInfo[]          TV show information
+     This program display the customer subscription
+     @param   subscription      Subscription number
+     @param   tvSet[]          TV show information
      @retval  Error Code       0
  */
 int DisplayTvSet ( int subscription, int* tvSet )

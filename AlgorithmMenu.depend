@@ -29,7 +29,7 @@
 
 1604506665 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\ascii.h
 
-1608153692 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\main.c
+1608166409 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\main.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -38,7 +38,7 @@
 	"..\header\ASCII.h"
 	"..\header\Menu.h"
 	"..\header\SubscribeTvProgram\TVshowManager.h"
-	"Palindrome.h"
+	"..\header\DigitalConverter\digitalConverter.h"
 	"Thermo.h"
 	"JeuPendu.h"
 
@@ -48,16 +48,41 @@
 	"..\header\Menu.h"
 	"..\header\Compiler.h"
 
-1608160479 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\subscribetvprogram\tvshowmanager.c
+1608162198 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\subscribetvprogram\tvshowmanager.c
 	<stdio.h>
 	<stdlib.h>
 	"..\..\header\Compiler.h"
 	"..\..\header\SubscribeTvProgram/DisplayTVshow.h"
 
-1608160460 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\subscribetvprogram\displaytvshow.h
+1608162198 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\subscribetvprogram\displaytvshow.h
 
-1608160535 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\subscribetvprogram\displaytvshow.c
+1608168514 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\subscribetvprogram\displaytvshow.c
 	"..\..\header\SubscribeTvProgram\DisplayTVshow.h"
 
-1608152663 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\subscribetvprogram\tvshowmanager.h
+1608162198 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\subscribetvprogram\tvshowmanager.h
+
+1608164407 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\conversion.c
+	"..\..\header\DigitalConverter\conversion.h"
+
+1608163364 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\conversion.h
+
+1608164412 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\convertisseurbasesnumeriques.c
+	<stdio.h>
+	<stdlib.h>
+	"..\..\header\DigitalConverter\conversion.h"
+
+1608164740 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\convertisseurbasesnumeriques.h
+
+1608170016 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\digitalconverter.c
+	<stdio.h>
+	<stdlib.h>
+	"..\..\header\Compiler.h"
+	"..\..\header\DigitalConverter\converter.h"
+
+1608164879 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\digitalconverter.h
+
+1608169732 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\converter.c
+	"..\..\header\DigitalConverter\converter.h"
+
+1608168730 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\converter.h
 
