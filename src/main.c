@@ -30,10 +30,10 @@
 #include "..\header\Menu.h" /* Test1, Test2, */
 
 #include "..\header\SubscribeTvProgram\TVshowManager.h"
+#include "..\header\DigitalConverter\digitalConverter.h"
 
 //Some algorithm coming soon...
-/*#include "ConvertisseurBasesNumeriques.h"
-#include "Palindrome.h"
+/*#include "Palindrome.h"
 #include "Thermo.h"
 #include "JeuPendu.h"
 */
@@ -45,15 +45,16 @@ static TMenu Menu [] = {
     {'A', "Run test 1", Test1 },
     {'B', "Run Test 2", Test2 },
     {'C', "View your television subscription", TVshowManager},
-    /*{'D', "Verifier si une chaine est un palindrome", Palindrome },
-    {'E', "Convertir des entiers ou caracteres sous differentes bases numeriques", ConvertisseurBasesNumeriques },
+    {'D', "Convert integers or characters in different digital base", digitalConverter },
+    /*{'E', "Verifier si une chaine est un palindrome", Palindrome },
+
     {'F', "Verifier la temperature passante dans la maison", Thermo },
     {'G', "Un programme qui fait rien", ProgrammeFaitRien },
     {'H', "Le programme qui crash (Pas recommande)", ProgrammeCrash },
     {'I', "Le jeu du pendu", JeuPendu },*/
 };
 
-//Calcul the number of elements in the menu
+//calculate the number of items in the menu
 static unsigned int iNbElementMenu = sizeof ( Menu ) / sizeof ( struct TMenu );
 
 //** **************************************************************************
