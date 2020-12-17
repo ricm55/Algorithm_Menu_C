@@ -33,10 +33,18 @@
 		</Compiler>
 		<Unit filename="header/ASCII.h" />
 		<Unit filename="header/Compiler.h" />
+		<Unit filename="header/DigitalConverter/DigitalConverter.h" />
+		<Unit filename="header/DigitalConverter/converter.h" />
 		<Unit filename="header/Menu.h" />
 		<Unit filename="header/SubscribeTvProgram/DisplayTVshow.h" />
 		<Unit filename="header/SubscribeTvProgram/TVshowManager.h" />
 		<Unit filename="header/keyboard.h" />
+		<Unit filename="src/DigitalConverter/DigitalConverter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/DigitalConverter/converter.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="src/Menu.c">
 			<Option compilerVar="CC" />
 		</Unit>

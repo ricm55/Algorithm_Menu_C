@@ -73,7 +73,7 @@
 
 1608164740 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\convertisseurbasesnumeriques.h
 
-1608170016 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\digitalconverter.c
+1608170628 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\digitalconverter.c
 	<stdio.h>
 	<stdlib.h>
 	"..\..\header\Compiler.h"
@@ -81,8 +81,8 @@
 
 1608164879 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\digitalconverter.h
 
-1608169732 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\converter.c
+1608170628 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\converter.c
 	"..\..\header\DigitalConverter\converter.h"
 
-1608168730 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\converter.h
+1608170628 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\converter.h
 
