@@ -1,0 +1,110 @@
+\hypertarget{converter_8c}{}\doxysection{C\+:/\+Users/marca/\+One\+Drive/\+Workspace/\+Code\+Block\+\_\+\+Workspace/\+Algorithm\+Menu/src/\+Digital\+Converter/converter.c File Reference}
+\label{converter_8c}\index{C:/Users/marca/OneDrive/Workspace/CodeBlock\_Workspace/AlgorithmMenu/src/DigitalConverter/converter.c@{C:/Users/marca/OneDrive/Workspace/CodeBlock\_Workspace/AlgorithmMenu/src/DigitalConverter/converter.c}}
+
+
+Several functions that can convert.  
+
+
+{\ttfamily \#include \char`\"{}..\textbackslash{}..\textbackslash{}header\textbackslash{}\+Digital\+Converter\textbackslash{}converter.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{converter_8c_ac67e5cababbd1cdf46a360846b62215e}{number\+To\+Binary}} (int number\+To\+Convert, char $\ast$p\+Binary)
+\item 
+int \mbox{\hyperlink{converter_8c_a400fcded5fc14a046421550e12a3f9d8}{char\+To\+Binary}} (int character\+To\+Convert, char $\ast$p\+Binary)
+\item 
+int \mbox{\hyperlink{converter_8c_a134d9c620a1920b01926c9561ef02b57}{celsius\+To\+Fah}} (int celsius)
+\item 
+int \mbox{\hyperlink{converter_8c_a4fe899028e0f5b8608948e68d1cab282}{celsius\+To\+Kelvin}} (int celsius)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Several functions that can convert. 
+
+\begin{DoxyVersion}{Version}
+1.\+00
+\end{DoxyVersion}
+\DoxyHorRuler{0}
+ {\bfseries{Historique}} \DoxyHorRuler{0}
+ \begin{DoxyDate}{Date}
+2020-\/10-\/31 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Marc-\/\+Antoine 
+\end{DoxyAuthor}
+\begin{DoxyNote}{Note}
+Many value can be convert
+\end{DoxyNote}
+\DoxyHorRuler{0}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{converter_8c_a134d9c620a1920b01926c9561ef02b57}\label{converter_8c_a134d9c620a1920b01926c9561ef02b57}} 
+\index{converter.c@{converter.c}!celsiusToFah@{celsiusToFah}}
+\index{celsiusToFah@{celsiusToFah}!converter.c@{converter.c}}
+\doxysubsubsection{\texorpdfstring{celsiusToFah()}{celsiusToFah()}}
+{\footnotesize\ttfamily int celsius\+To\+Fah (\begin{DoxyParamCaption}\item[{int}]{celsius }\end{DoxyParamCaption})}
+
+Converter celsius -\/-\/$>$ Fahrenheit 
+\begin{DoxyParams}{Parameters}
+{\em celsius} & celsius to convert \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em fah} & degrees in fahrenheit \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{converter_8c_a4fe899028e0f5b8608948e68d1cab282}\label{converter_8c_a4fe899028e0f5b8608948e68d1cab282}} 
+\index{converter.c@{converter.c}!celsiusToKelvin@{celsiusToKelvin}}
+\index{celsiusToKelvin@{celsiusToKelvin}!converter.c@{converter.c}}
+\doxysubsubsection{\texorpdfstring{celsiusToKelvin()}{celsiusToKelvin()}}
+{\footnotesize\ttfamily int celsius\+To\+Kelvin (\begin{DoxyParamCaption}\item[{int}]{celsius }\end{DoxyParamCaption})}
+
+Converter celsius -\/-\/$>$ Kelvin 
+\begin{DoxyParams}{Parameters}
+{\em celsius} & celsius to convert \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em kelvin} & degrees in kelvin \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{converter_8c_a400fcded5fc14a046421550e12a3f9d8}\label{converter_8c_a400fcded5fc14a046421550e12a3f9d8}} 
+\index{converter.c@{converter.c}!charToBinary@{charToBinary}}
+\index{charToBinary@{charToBinary}!converter.c@{converter.c}}
+\doxysubsubsection{\texorpdfstring{charToBinary()}{charToBinary()}}
+{\footnotesize\ttfamily int char\+To\+Binary (\begin{DoxyParamCaption}\item[{int}]{character\+To\+Convert,  }\item[{char $\ast$}]{p\+Binary }\end{DoxyParamCaption})}
+
+Converter character -\/-\/$>$ binary (same code as the previous one, dont know why I have the same function) 
+\begin{DoxyParams}{Parameters}
+{\em character\+To\+Convert} & character to convert \\
+\hline
+{\em p\+Binary} & stock binary bits \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Error} & Code 0 \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{converter_8c_ac67e5cababbd1cdf46a360846b62215e}\label{converter_8c_ac67e5cababbd1cdf46a360846b62215e}} 
+\index{converter.c@{converter.c}!numberToBinary@{numberToBinary}}
+\index{numberToBinary@{numberToBinary}!converter.c@{converter.c}}
+\doxysubsubsection{\texorpdfstring{numberToBinary()}{numberToBinary()}}
+{\footnotesize\ttfamily int number\+To\+Binary (\begin{DoxyParamCaption}\item[{int}]{number\+To\+Convert,  }\item[{char $\ast$}]{p\+Binary }\end{DoxyParamCaption})}
+
+Converter number -\/-\/$>$ binary 
+\begin{DoxyParams}{Parameters}
+{\em number\+To\+Convert} & number to convert \\
+\hline
+{\em p\+Binary} & stock binary bits \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Error} & Code 0 \\
+\hline
+\end{DoxyRetVals}

@@ -1,4 +1,4 @@
-/*!  @file                              conversion.c
+/*!  @file                              converter.c
      @version                           1.00
      @brief                             Several functions that can convert
 

@@ -1,4 +1,4 @@
-/*!  @file                              conversion.h
+/*!  @file                              converter.h
      @version                           1.00
      @brief                             All converter function declaration
 
