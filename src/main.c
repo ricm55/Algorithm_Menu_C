@@ -31,9 +31,9 @@
 
 #include "..\header\SubscribeTvProgram\TVshowManager.h"
 #include "..\header\DigitalConverter\digitalConverter.h"
-
+#include "..\header\Palindrome\Palindrome.h"
 //Some algorithm coming soon...
-/*#include "Palindrome.h"
+/*
 #include "Thermo.h"
 #include "JeuPendu.h"
 */
@@ -46,8 +46,8 @@ static TMenu Menu [] = {
     {'B', "Run Test 2", Test2 },
     {'C', "View your television subscription", TVshowManager},
     {'D', "Convert integers or characters in different digital base", digitalConverter },
-    /*{'E', "Verifier si une chaine est un palindrome", Palindrome },
-
+    {'E', "Verify if a string is a palindrome", palindrome },
+/*
     {'F', "Verifier la temperature passante dans la maison", Thermo },
     {'G', "Un programme qui fait rien", ProgrammeFaitRien },
     {'H', "Le programme qui crash (Pas recommande)", ProgrammeCrash },
@@ -76,7 +76,7 @@ int main ( int argc, char* argv[] )
     char cArret[] = "Program stop\n";
     int i = 0;
 
-    //** Can stock the user input
+    //** Can store the user input
     char cChoix = 0;
     int iTouche = 0;
 

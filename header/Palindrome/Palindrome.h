@@ -1,0 +1,6 @@
+#ifndef PALINDROME_H_INCLUDED
+#define PALINDROME_H_INCLUDED
+
+int palindrome ();
+
+#endif // PALINDROME_H_INCLUDED
