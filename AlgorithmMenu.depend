@@ -29,7 +29,7 @@
 
 1604506665 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\ascii.h
 
-1608231383 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\main.c
+1608266107 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\main.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -40,16 +40,17 @@
 	"..\header\SubscribeTvProgram\TVshowManager.h"
 	"..\header\DigitalConverter\digitalConverter.h"
 	"..\header\Palindrome\Palindrome.h"
+	"..\header\houseTemp\houseTemp.h"
 	"Thermo.h"
 	"JeuPendu.h"
 
-1604506665 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\menu.h
+1608268072 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\menu.h
 
 1604506665 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\menu.c
 	"..\header\Menu.h"
 	"..\header\Compiler.h"
 
-1608162198 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\subscribetvprogram\tvshowmanager.c
+1608267907 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\subscribetvprogram\tvshowmanager.c
 	<stdio.h>
 	<stdlib.h>
 	"..\..\header\Compiler.h"
@@ -57,7 +58,7 @@
 
 1608162198 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\subscribetvprogram\displaytvshow.h
 
-1608182347 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\subscribetvprogram\displaytvshow.c
+1608263367 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\subscribetvprogram\displaytvshow.c
 	"..\..\header\SubscribeTvProgram\DisplayTVshow.h"
 
 1608162198 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\subscribetvprogram\tvshowmanager.h
@@ -74,18 +75,18 @@
 
 1608164740 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\convertisseurbasesnumeriques.h
 
-1608182347 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\digitalconverter.c
+1608267868 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\digitalconverter.c
 	<stdio.h>
 	<stdlib.h>
 	"..\..\header\Compiler.h"
 	"..\..\header\DigitalConverter\converter.h"
 
-1608182347 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\digitalconverter.h
+1608263228 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\digitalconverter.h
 
-1608182347 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\converter.c
+1608263162 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\digitalconverter\converter.c
 	"..\..\header\DigitalConverter\converter.h"
 
-1608182347 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\converter.h
+1608263233 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\digitalconverter\converter.h
 
 1608230979 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\palindrome\traiterchainecaracteres.c
 	<stdio.h>
@@ -95,28 +96,38 @@
 
 1509934432 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\traiterchainecaracteres.h
 
-1608260974 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\palindrome\verifypalindrome.c
+1608264271 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\palindrome\verifypalindrome.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"..\..\header\Palindrome\stringOperations.h"
 	"..\..\header\Palindrome\VerifyPalindrome.h"
 
-1608257153 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\verifypalindrome.h
+1608264271 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\verifypalindrome.h
 
-1608260871 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\palindrome\palindrome.c
+1608264271 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\palindrome\palindrome.c
 	<stdio.h>
 	<stdlib.h>
 	"..\..\header\Compiler.h"
 	"..\..\header\Palindrome\Palindrome.h"
 	"..\..\header\Palindrome\verifyPalindrome.h"
 
-1608258158 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\palindrome.h
+1608264271 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\palindrome.h
 
-1608257124 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\stringoperations.h
+1608264271 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\stringoperations.h
 
-1608260942 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\palindrome\stringoperations.c
+1608264271 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\palindrome\stringoperations.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"..\..\header\Palindrome\StringOperations.h"
+
+1608266520 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\housetemp\housetemp.h
+
+1608267737 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\housetemp\housetemp.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"..\..\header\Compiler.h"
+	"..\..\header\DigitalConverter\converter.h"
+

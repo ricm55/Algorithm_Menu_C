@@ -26,7 +26,7 @@ extern "C"
     struct TMenu
     {
         //!Input character to run the program
-        char Touche;
+        char userInput;
 
         //!Description for the program
         char* Description;
