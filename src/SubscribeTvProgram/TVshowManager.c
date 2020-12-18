@@ -7,7 +7,7 @@
      <hr width="100%" height="1">
      @date                              2017-09-07
      @author                            Marc-Antoine
-     @note                              It can display TV set according to your subscription
+     @note                              It can display TV set according to user subscription
 
      <hr width="100%" height="5">
  */
@@ -19,7 +19,13 @@
 #include "..\..\header\Compiler.h"/*PAUSE()*/
 
 #include "..\..\header\SubscribeTvProgram/DisplayTVshow.h"
-
+//** **************************************************************************
+/*!
+     This program can display TV set according to user subscription
+     @return                Error code
+     @retval  EXIT_SUCCESS  no runtime error
+     @retval  EXIT_FAILED   failure
+ */
 int TVshowManager ()
 {
 
