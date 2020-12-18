@@ -1,21 +1,15 @@
-/*!  @file                              %<%NAME%>%.%<%EXTENSION%>%
+/*!  @file                              VerifyPalindrome.h
      @version                           1.00
-     @brief                             Description du contenu du fichier.
-   
-     @internal
-   
-     @todo                              Voir aux endroits appropri�s.
-   
+     @brief                             Declaration of verify palindrome program
+
      <hr width="100%" height="5">
      <b>Historique</b>
      <hr width="100%" height="1">
-     @date                              %<%DATE%>%
-     @author                            %<%AUTHOR%>%
-     @note                              Entr�e du squelette de code.
-   
+     @date                              2020-10-31
+     @author                            Marc-Antoine
      <hr width="100%" height="5">
  */
-//** **************************************************************************
+ //** **************************************************************************
 
 #ifndef VERIFIERPALINDROME_H
 #define VERIFIERPALINDROME_H
@@ -25,8 +19,8 @@ extern "C"
 {
 #endif
 
-    unsigned char* cVerifierPalindrome ( unsigned char* pChaine );
-    
+    unsigned char* verifyPalindrome ( unsigned char* userSentence );
+
 #ifdef __cplusplus
 }
 #endif

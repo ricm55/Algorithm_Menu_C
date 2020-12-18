@@ -1,4 +1,4 @@
-/*!  @file                              DisplayTVshow.h
+/*!  @file                              DisplayTVshow.c
      @version                           1.00
      @brief                             This program can display customer's television subscription
 

@@ -36,6 +36,9 @@
 		<Unit filename="header/DigitalConverter/DigitalConverter.h" />
 		<Unit filename="header/DigitalConverter/converter.h" />
 		<Unit filename="header/Menu.h" />
+		<Unit filename="header/Palindrome/Palindrome.h" />
+		<Unit filename="header/Palindrome/TraiterChaineCaracteres.h" />
+		<Unit filename="header/Palindrome/VerifyPalindrome.h" />
 		<Unit filename="header/SubscribeTvProgram/DisplayTVshow.h" />
 		<Unit filename="header/SubscribeTvProgram/TVshowManager.h" />
 		<Unit filename="header/keyboard.h" />
@@ -46,6 +49,15 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/Menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Palindrome/Palindrome.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Palindrome/TraiterChaineCaracteres.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Palindrome/VerifyPalindrome.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/SubscribeTvProgram/DisplayTVshow.c">

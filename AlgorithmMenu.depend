@@ -95,20 +95,29 @@
 
 1509934432 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\traiterchainecaracteres.h
 
-1608231039 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\palindrome\verifypalindrome.c
+1608260974 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\palindrome\verifypalindrome.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
-	"..\..\header\Palindrome\TraiterChaineCaracteres.h"
+	"..\..\header\Palindrome\stringOperations.h"
 	"..\..\header\Palindrome\VerifyPalindrome.h"
 
-1508942166 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\verifypalindrome.h
+1608257153 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\verifypalindrome.h
 
-1608232591 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\palindrome\palindrome.c
+1608260871 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\palindrome\palindrome.c
 	<stdio.h>
 	<stdlib.h>
+	"..\..\header\Compiler.h"
 	"..\..\header\Palindrome\Palindrome.h"
 	"..\..\header\Palindrome\verifyPalindrome.h"
 
-1608231141 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\palindrome.h
+1608258158 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\palindrome.h
+
+1608257124 c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\header\palindrome\stringoperations.h
+
+1608260942 source:c:\users\marca\onedrive\workspace\codeblock_workspace\algorithmmenu\src\palindrome\stringoperations.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"..\..\header\Palindrome\StringOperations.h"
 

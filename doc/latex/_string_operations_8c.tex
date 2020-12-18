@@ -1,0 +1,201 @@
+\hypertarget{_string_operations_8c}{}\doxysection{C\+:/\+Users/marca/\+One\+Drive/\+Workspace/\+Code\+Block\+\_\+\+Workspace/\+Algorithm\+Menu/src/\+Palindrome/\+String\+Operations.c File Reference}
+\label{_string_operations_8c}\index{C:/Users/marca/OneDrive/Workspace/CodeBlock\_Workspace/AlgorithmMenu/src/Palindrome/StringOperations.c@{C:/Users/marca/OneDrive/Workspace/CodeBlock\_Workspace/AlgorithmMenu/src/Palindrome/StringOperations.c}}
+
+
+this library obtain many operation about strings  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}..\textbackslash{}header\textbackslash{}\+Palindrome\textbackslash{}\+String\+Operations.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_string_operations_8c_ae6ad0540d5109a0200f0dde5dc5b4bf6}\label{_string_operations_8c_ae6ad0540d5109a0200f0dde5dc5b4bf6}} 
+\#define {\bfseries T\+A\+I\+L\+L\+E\+\_\+\+M\+AX}~500
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+unsigned char $\ast$ \mbox{\hyperlink{_string_operations_8c_ac8866abd9f4eff7e7f3daf7cfc7c6972}{remove\+Spaces}} (unsigned char $\ast$user\+Sentence)
+\begin{DoxyCompactList}\small\item\em remove all spaces in a string \end{DoxyCompactList}\item 
+unsigned char $\ast$ \mbox{\hyperlink{_string_operations_8c_a5c865139e7162cf5868c276d34268e47}{remove\+Uppercase}} (unsigned char $\ast$user\+Sentence)
+\begin{DoxyCompactList}\small\item\em remove all uppercase in a string \end{DoxyCompactList}\item 
+unsigned char $\ast$ \mbox{\hyperlink{_string_operations_8c_a61c21bf6c6ec659009fedb7dd5c6af90}{remove\+Punctuation}} (unsigned char $\ast$user\+Sentence)
+\begin{DoxyCompactList}\small\item\em remove all punctuation in a string \end{DoxyCompactList}\item 
+unsigned char $\ast$ \mbox{\hyperlink{_string_operations_8c_a64487b85d75b31a0945a287cdd3d9baa}{remove\+Accents}} (unsigned char $\ast$user\+Sentence)
+\begin{DoxyCompactList}\small\item\em remove all accents in a string \end{DoxyCompactList}\item 
+unsigned char \mbox{\hyperlink{_string_operations_8c_a0f9f54bb31c560a349763a1f696b2179}{reverse\+String}} (unsigned char $\ast$user\+Sentence\+Utilisateur, unsigned char $\ast$p\+Reverse\+Sentence)
+\begin{DoxyCompactList}\small\item\em reverse a string \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_string_operations_8c_a6a3af78c88e59e093e4a652cca4f3bfe}{string\+Equals}} (char $\ast$user\+Sentence, char $\ast$p\+Reverse\+Sentence)
+\begin{DoxyCompactList}\small\item\em verify if two strings are equals \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{_string_operations_8c_a31fbc094b5477c3a3a07e871459ae859}{remove\+Accents2}} (unsigned char $\ast$user\+Sentence)
+\begin{DoxyCompactList}\small\item\em remove all accents in a string (2nd algorithm) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this library obtain many operation about strings 
+
+\begin{DoxyVersion}{Version}
+1.\+00
+\end{DoxyVersion}
+\DoxyHorRuler{0}
+ {\bfseries{Historique}} \DoxyHorRuler{0}
+ \begin{DoxyDate}{Date}
+2017-\/10-\/25 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Marc-\/\+Antoine 
+\end{DoxyAuthor}
+\begin{DoxyNote}{Note}
+Many operation on strings can be done
+\end{DoxyNote}
+\DoxyHorRuler{0}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_string_operations_8c_a64487b85d75b31a0945a287cdd3d9baa}\label{_string_operations_8c_a64487b85d75b31a0945a287cdd3d9baa}} 
+\index{StringOperations.c@{StringOperations.c}!removeAccents@{removeAccents}}
+\index{removeAccents@{removeAccents}!StringOperations.c@{StringOperations.c}}
+\doxysubsubsection{\texorpdfstring{removeAccents()}{removeAccents()}}
+{\footnotesize\ttfamily unsigned char$\ast$ remove\+Accents (\begin{DoxyParamCaption}\item[{unsigned char $\ast$}]{user\+Sentence }\end{DoxyParamCaption})}
+
+
+
+remove all accents in a string 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Sentence} & string to remove accents \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em user\+Sentence} & new string without accents \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{_string_operations_8c_a31fbc094b5477c3a3a07e871459ae859}\label{_string_operations_8c_a31fbc094b5477c3a3a07e871459ae859}} 
+\index{StringOperations.c@{StringOperations.c}!removeAccents2@{removeAccents2}}
+\index{removeAccents2@{removeAccents2}!StringOperations.c@{StringOperations.c}}
+\doxysubsubsection{\texorpdfstring{removeAccents2()}{removeAccents2()}}
+{\footnotesize\ttfamily char$\ast$ remove\+Accents2 (\begin{DoxyParamCaption}\item[{unsigned char $\ast$}]{user\+Sentence }\end{DoxyParamCaption})}
+
+
+
+remove all accents in a string (2nd algorithm) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Sentence} & string to remove accents \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em p} & new string without accents \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{_string_operations_8c_a61c21bf6c6ec659009fedb7dd5c6af90}\label{_string_operations_8c_a61c21bf6c6ec659009fedb7dd5c6af90}} 
+\index{StringOperations.c@{StringOperations.c}!removePunctuation@{removePunctuation}}
+\index{removePunctuation@{removePunctuation}!StringOperations.c@{StringOperations.c}}
+\doxysubsubsection{\texorpdfstring{removePunctuation()}{removePunctuation()}}
+{\footnotesize\ttfamily unsigned char$\ast$ remove\+Punctuation (\begin{DoxyParamCaption}\item[{unsigned char $\ast$}]{user\+Sentence }\end{DoxyParamCaption})}
+
+
+
+remove all punctuation in a string 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Sentence} & string to remove punctuation \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em user\+Sentence\+Mod} & new string without punctuation \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{_string_operations_8c_ac8866abd9f4eff7e7f3daf7cfc7c6972}\label{_string_operations_8c_ac8866abd9f4eff7e7f3daf7cfc7c6972}} 
+\index{StringOperations.c@{StringOperations.c}!removeSpaces@{removeSpaces}}
+\index{removeSpaces@{removeSpaces}!StringOperations.c@{StringOperations.c}}
+\doxysubsubsection{\texorpdfstring{removeSpaces()}{removeSpaces()}}
+{\footnotesize\ttfamily unsigned char$\ast$ remove\+Spaces (\begin{DoxyParamCaption}\item[{unsigned char $\ast$}]{user\+Sentence }\end{DoxyParamCaption})}
+
+
+
+remove all spaces in a string 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Sentence} & string to remove space \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em user\+Sentence\+Mod} & new string without spaces \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{_string_operations_8c_a5c865139e7162cf5868c276d34268e47}\label{_string_operations_8c_a5c865139e7162cf5868c276d34268e47}} 
+\index{StringOperations.c@{StringOperations.c}!removeUppercase@{removeUppercase}}
+\index{removeUppercase@{removeUppercase}!StringOperations.c@{StringOperations.c}}
+\doxysubsubsection{\texorpdfstring{removeUppercase()}{removeUppercase()}}
+{\footnotesize\ttfamily unsigned char$\ast$ remove\+Uppercase (\begin{DoxyParamCaption}\item[{unsigned char $\ast$}]{user\+Sentence }\end{DoxyParamCaption})}
+
+
+
+remove all uppercase in a string 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Sentence} & string to remove uppercase \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em user\+Sentence\+Mod} & new string without uppercase \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{_string_operations_8c_a0f9f54bb31c560a349763a1f696b2179}\label{_string_operations_8c_a0f9f54bb31c560a349763a1f696b2179}} 
+\index{StringOperations.c@{StringOperations.c}!reverseString@{reverseString}}
+\index{reverseString@{reverseString}!StringOperations.c@{StringOperations.c}}
+\doxysubsubsection{\texorpdfstring{reverseString()}{reverseString()}}
+{\footnotesize\ttfamily unsigned char reverse\+String (\begin{DoxyParamCaption}\item[{unsigned char $\ast$}]{user\+Sentence\+Utilisateur,  }\item[{unsigned char $\ast$}]{p\+Reverse\+Sentence }\end{DoxyParamCaption})}
+
+
+
+reverse a string 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Sentence\+Utilisateur} & string to reverse \\
+\hline
+{\em p\+Reverse\+Sentence} & string to store the reverse string \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em p\+Reverse\+Sentence} & new reverse string \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{_string_operations_8c_a6a3af78c88e59e093e4a652cca4f3bfe}\label{_string_operations_8c_a6a3af78c88e59e093e4a652cca4f3bfe}} 
+\index{StringOperations.c@{StringOperations.c}!stringEquals@{stringEquals}}
+\index{stringEquals@{stringEquals}!StringOperations.c@{StringOperations.c}}
+\doxysubsubsection{\texorpdfstring{stringEquals()}{stringEquals()}}
+{\footnotesize\ttfamily int string\+Equals (\begin{DoxyParamCaption}\item[{char $\ast$}]{user\+Sentence,  }\item[{char $\ast$}]{p\+Reverse\+Sentence }\end{DoxyParamCaption})}
+
+
+
+verify if two strings are equals 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Sentence} & string to compare \\
+\hline
+{\em p\+Reverse\+Sentence} & string to compare \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em boolean} & 0\+:different 1\+:equals \\
+\hline
+\end{DoxyRetVals}

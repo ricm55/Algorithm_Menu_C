@@ -1,4 +1,4 @@
-/*!  @file                              ConvertisseurBasesNumeriques.c
+/*!  @file                              DigitalConverter.c
      @version                           1.00
      @brief                             This program can do multiple conversions
 

@@ -1,16 +1,13 @@
-/*!  @file                              VerifierPalindrome.c
+/*!  @file                              VerifyPalindrome.c
      @version                           1.00
-     @brief                             Implementation de...
-
-     @internal
-     @note                              Note au programmeur.
+     @brief                             Can verify if a sentence is a palindrome
 
      <hr width="100%" height="5">
      <b>Historique</b>
      <hr width="100%" height="1">
      @date                              2017-10-25
      @author                            Marc-Antoine
-     @note                              Entree du code.
+     @note                              code is complete, can now verify
 
      <hr width="100%" height="5">
  */
@@ -19,43 +16,41 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "..\..\header\Palindrome\TraiterChaineCaracteres.h"
+#include "..\..\header\Palindrome\stringOperations.h"
 #include "..\..\header\Palindrome\VerifyPalindrome.h"
 #define TAILLE_MAX 500
 //** **************************************************************************
-/*!  @brief                             Fonction de la routine.
+/*!  @brief                             Can verify if a sentence is a palindrome
 
-     @return                            Code de la couleur de l'objet.
-     @retval                            ccNoir    Noir.
-     @retval                            ccBrun    Brun / marron.
-
-     @internal
+     @param                             userSentence user input
+     @retval                            isPalindrome    return if user input is a palindrome.
 
      <hr width="100%" height="5">
      <b>Historique</b>
      <hr width="100%" height="1">
-     @date                              2005-09-13
-     @author                            Denis Lavoie
-     @note                              Entr�e du code.
+     @date                              2017-10-25
+     @author                            Marc-Antoine Ricard
+     @note                              can now detect palindrome removing accent, space and uppercase
 
      <hr width="100%" height="5">
  */
-unsigned char* cVerifierPalindrome ( unsigned char* pChaine )
-{//Chaine verifiant si la saisi est un palindrome
+unsigned char* verifyPalindrome( unsigned char* userSentence )
+{
+    //reverse user sentence
+    unsigned char pReverseSentence[TAILLE_MAX];
 
-    unsigned char pChaineInverse[TAILLE_MAX];//Creer de l'espace pour la chaine inverse
+    //contain if the sentence is a palindrome
+    int isPalindrome = 0;
 
-    int iPalindrome = 0;//Creer de l'espace pour l'information qui indique si c'est un palindrome
+    //remove all useless character (uppercase, accent...)
+    userSentence = removeUppercase(removePunctuation(removeUppercase(removeAccents2(removeSpaces(userSentence)))));
 
-    //Traitement de la chaine de l'utilisateur
-    pChaine = cEliminerMajuscules(cEliminerPonctuation(cEliminerMajuscules(ElimineAccents(cEliminerEspaces(pChaine)))));
+    //reverse user sentence
+    reverseString(userSentence, pReverseSentence);
 
-    //Inversion de la chaine de l'utilisateur
-    cInversionChaine(pChaine, pChaineInverse);
-
-    //Analyser les 2 chaines pour voir s'ils sont egaux
-    iPalindrome = iComparerChaine(pChaine, pChaineInverse);
+    //Compare user sentence and reverse user sentence
+    isPalindrome = stringEquals(userSentence, pReverseSentence);
 
 
-    return iPalindrome;//Retourner si c'est un palindrome ou non
+    return isPalindrome;
 }

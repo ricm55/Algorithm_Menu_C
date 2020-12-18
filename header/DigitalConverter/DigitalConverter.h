@@ -1,4 +1,4 @@
-/*!  @file                              ConvertisseurBasesNumeriques.h
+/*!  @file                              DigitalConverter.h
      @version                           1.00
      @brief                             Contain declaration for main converter
 

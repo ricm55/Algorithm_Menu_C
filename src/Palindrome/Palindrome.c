@@ -34,69 +34,70 @@ int palindrome ()
 {
 #if 1
 
-    char sTitre[] = "PALINDROME TESTER\n";
-    char sPied[] =  "*********************\n\n";
-    char sDemande[] = "Insert a sentence\n=> ";
-    char sPhrase[MAX_CHARACTERS] = "";
-    char sPositif[] = "This sentence is a palindrome!\n";
-    char sNegatif[] = "This sentence is not a palindrome!\n";
-    char sRecommencer[] = "Do you want to start over ? (O/N) ";
-    char sPasCompris[] = "I don't understand your answer...\n";
-    char cRejouer = 'a';
-    int iReponse = 0;
+    char title[] = "PALINDROME TESTER\n";
+    char headerLine[] =  "*********************\n\n";
+    char askSentence[] = "Insert a sentence\n=> ";
+    char userSentence[MAX_CHARACTERS] = "";
+    char palindromeOk[] = "This sentence is a palindrome!\n";
+    char notPalindrome[] = "This sentence is not a palindrome!\n";
+    char askRestart[] = "Do you want to restart ? (O/N) ";
+    char answerNotUnderstand[] = "I don't understand your answer...\n";
+    char userRestart = 'a';
+    int isPalindrome = 0;
 
     //Display title
-    printf ( "%s%s", sTitre, sPied );
+    printf ( "%s%s", title, headerLine );
 
 
     do
     {
         //Ask the user for a sentence
-        printf ( "%s", sDemande );
+        printf ( "%s", askSentence );
 
-        //get sentence
-        scanf ( "%s", sPhrase );
+        fgets(userSentence,MAX_CHARACTERS,stdin);
+        //remove the '\n' character from gets
+        userSentence[strlen(userSentence)-1] = '\0';
 
         //verify if the sentence is a palindrome
-        iReponse = cVerifierPalindrome ( sPhrase );
+        isPalindrome = verifyPalindrome ( userSentence );
 
         //display if its a palindrome or not
-        if ( iReponse == 1 )
+        if ( isPalindrome == 1 )
         {
-            printf ( "%s", sPositif );
+            printf ( "%s", palindromeOk );
         }
         else
         {
-            printf ( "%s", sNegatif );
+            printf ( "%s", notPalindrome );
         }
 
         //Does the user want to start over from the beginning?
         do
         {
 
-            printf ( "%s", sRecommencer );
+            printf ( "%s", askRestart );
 
             fflush(stdin);
 
-            scanf("%c",&cRejouer);
+            scanf("%c",&userRestart);
 
             fflush(stdin);
 
-            cRejouer = toupper ( cRejouer );
+            userRestart = toupper ( userRestart );
 
-            if ( cRejouer != 'O' && cRejouer != 'N' )
+            if ( userRestart != 'O' && userRestart != 'N' )
             {
 
-                printf ( "%s", sPasCompris );
+                printf ( "%s", answerNotUnderstand );
             }
 
         }
-        while ( cRejouer != 'O' && cRejouer != 'N' );
+        while ( userRestart != 'O' && userRestart != 'N' );
 
 
     }
     //Restart the programme
-    while ( cRejouer == 'O' );
+    while ( userRestart == 'O' );
 
 
 
