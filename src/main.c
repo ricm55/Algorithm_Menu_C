@@ -42,7 +42,7 @@ static TMenu Menu [] = {
     {'C', "View your television subscription", TVshowManager},
     {'D', "Convert integers or characters in different digital base", digitalConverter },
     {'E', "Verify if a string is a palindrome", palindrome },
-    {'F', "Verifier la temperature passante dans la maison", houseTemp },
+    {'F', "Verify the passing temperature in the house", houseTemp },
 };
 
 //calculate the number of items in the menu
