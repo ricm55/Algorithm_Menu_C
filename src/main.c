@@ -31,26 +31,18 @@
 #include "..\header\SubscribeTvProgram\TVshowManager.h"
 #include "..\header\DigitalConverter\digitalConverter.h"
 #include "..\header\Palindrome\Palindrome.h"
-//Some algorithm coming soon...
-/*
-#include "Thermo.h"
-#include "JeuPendu.h"
-*/
+#include "..\header\houseTemp\houseTemp.h"
+//Other algorithm will coming one day...
 
 //Create the algorithm choice menu
 static TMenu Menu [] = {
-
 
     {'A', "Run test 1", Test1 },
     {'B', "Run Test 2", Test2 },
     {'C', "View your television subscription", TVshowManager},
     {'D', "Convert integers or characters in different digital base", digitalConverter },
     {'E', "Verify if a string is a palindrome", palindrome },
-/*
-    {'F', "Verifier la temperature passante dans la maison", Thermo },
-    {'G', "Un programme qui fait rien", ProgrammeFaitRien },
-    {'H', "Le programme qui crash (Pas recommande)", ProgrammeCrash },
-    {'I', "Le jeu du pendu", JeuPendu },*/
+    {'F', "Verifier la temperature passante dans la maison", houseTemp },
 };
 
 //calculate the number of items in the menu
@@ -77,14 +69,14 @@ int main ( int argc, char* argv[] )
 
     //** Can store the user input
     char cChoix = 0;
-    int iTouche = 0;
+    int iuserInput = 0;
 
 
     //display date and time
     printf ( "%s %s\n\n", __DATE__, __TIME__ );
 
     //F10 to get out of this program
-    while ( iTouche != K_F10 )
+    while ( iuserInput != K_F10 )
     {
 
         //Display the menu
@@ -94,7 +86,7 @@ int main ( int argc, char* argv[] )
         for ( i = 0; i < iNbElementMenu; i++ )
         {
 
-            printf ( "%c     %s\n", Menu[i].Touche, Menu[i].Description );
+            printf ( "%c     %s\n", Menu[i].userInput, Menu[i].Description );
         }
 
         printf ( "%s", cAttendre );
@@ -105,7 +97,7 @@ int main ( int argc, char* argv[] )
 
         if ( cChoix == 0 || cChoix == 224 )
         {
-            iTouche = getch ( );
+            iuserInput = getch ( );
 
         }
         else
@@ -118,7 +110,7 @@ int main ( int argc, char* argv[] )
             cChoix = toupper ( cChoix );
 
             //Find which program the user want to run
-            for ( i = 0; i < iNbElementMenu && cChoix != Menu[i].Touche; i++ );
+            for ( i = 0; i < iNbElementMenu && cChoix != Menu[i].userInput; i++ );
 
 
             //If the character is in the menu

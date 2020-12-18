@@ -19,8 +19,12 @@
 #include "..\..\header\Compiler.h"
 #include "..\..\header\DigitalConverter\converter.h"
 
-/*
- *
+//** **************************************************************************
+/*!
+     This program can convert numbers and character on several digital bases
+     @return                Error code
+     @retval  EXIT_SUCCESS  no runtime error
+     @retval  EXIT_FAILED   failure
  */
 int digitalConverter() {
 
