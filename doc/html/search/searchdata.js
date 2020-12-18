@@ -1,9 +1,16 @@
 var indexSectionsWithContent =
 {
+<<<<<<< HEAD
   0: "cdmnpt",
   1: "t",
   2: "cdmt",
   3: "cdmnt",
+=======
+  0: "cdmnprstv",
+  1: "t",
+  2: "cdmpstv",
+  3: "cdmnprstv",
+>>>>>>> palindrome
   4: "dpt"
 };
 
